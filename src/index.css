@@ -1,0 +1,65 @@
+:root{
+
+
+    --main-color: rgb(16 47 53);
+    --firt-color: rgb(15 31 35);
+    --firt-color-transparent: rgb(15 31 35 / 0.9);
+    --second-color: rgb(46 70 46);
+    --color-green: rgb(67 167 45);
+    
+    --color-text: rgb(238 238 236);
+    --color-greys: hsl(0 0% 67%);
+
+    --color-greys-transparent:hsla(0 20% 95% / .5);
+    --color-red: hsl(12 100% 49%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+
+    font-family: "Shadows Into Light",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, cursive;
+    scroll-behavior: smooth;
+    background-color: var(--main-color);
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+h1,
+h2, 
+h3, 
+p,
+ul,
+hr
+{
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+input, button{
+    font-family: inherit;
+}
+
+button{
+    color: inherit;    
+    cursor: pointer;
+}
+
+input{
+    outline: none;
+}
